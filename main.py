@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: jcvlm/app:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/api-python:latest
